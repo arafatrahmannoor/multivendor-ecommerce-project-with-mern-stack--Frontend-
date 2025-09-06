@@ -1,0 +1,90 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+# Node modules
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage
+coverage/
+
+# Misc
+*.tgz
+
+# Public uploads (if any)
+public/uploads/
+public/profile_pictures/
+
+# Ignore SSLCommerz test credentials
+Backend/.env
+Backend/.env.local
+Backend/.env.development
+Backend/.env.production
+Backend/.env.test
+
+# Ignore email/password config
+Backend/*.env*
+
+# Ignore database dumps
+*.sql
+*.sqlite
+*.db
+*.bak
+
+# Ignore sensitive scripts
+Backend/create-test-user.js
+Backend/seed-database.js
+Backend/check-users.mjs
+Backend/test-server.js
+Backend/simple-test.js
+
+# Ignore any private keys
+*.pem
+*.key
+*.crt
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
